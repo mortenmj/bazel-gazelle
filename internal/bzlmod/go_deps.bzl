@@ -23,6 +23,7 @@ visibility("//")
 _IGNORED_MODULE_PATHS = [
     "github.com/bazelbuild/bazel-gazelle",
     "github.com/bazelbuild/rules_go",
+    "github.com/envoyproxy/protoc-gen-validate",
 ]
 
 _FORBIDDEN_OVERRIDE_TAG = """\
