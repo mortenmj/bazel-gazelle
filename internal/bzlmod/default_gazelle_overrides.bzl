@@ -11,6 +11,7 @@ DEFAULT_DIRECTIVES_BY_PATH = {
     ],
     "github.com/envoyproxy/protoc-gen-validate": [
         "gazelle:build_file_name BUILD.bazel",
+        "gazelle:build_file_proto_mode disable_global",
     ],
     "github.com/gogo/protobuf": [
         "gazelle:proto disable",
