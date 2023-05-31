@@ -16,7 +16,7 @@ DEFAULT_DIRECTIVES_BY_PATH = {
     ],
     "github.com/google/safetext": [
         "gazelle:build_file_name BUILD.bazel",
-        "gazelle:build_file_proto_mode disable_global",
+        "gazelle:proto disable",
     ],
     "github.com/googleapis/gnostic": [
         "gazelle:proto disable",
