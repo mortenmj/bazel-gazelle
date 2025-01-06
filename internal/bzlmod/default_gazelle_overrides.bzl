@@ -66,6 +66,9 @@ DEFAULT_DIRECTIVES_BY_PATH = {
     "github.com/google/gnostic-models": [
         "gazelle:proto disable",
     ],
+    "github.com/google/go-jsonnet": [
+        "gazelle:go_naming_convention go_default_library",
+    ],
     "github.com/google/safetext": [
         "gazelle:build_file_name BUILD.bazel",
         "gazelle:build_file_proto_mode disable_global",
